@@ -1,0 +1,11 @@
+{
+    "name": "excel-course",
+    "version": "1.0.0",
+    "description": "exel course Nurkhan",
+    "main": "webpack.config.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Nurkhan",
+    "license": "ISC"
+}
