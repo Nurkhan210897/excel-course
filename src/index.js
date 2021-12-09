@@ -1,8 +1,7 @@
-import './module';
 import './scss/index.scss'
 
 async function start() {
-    await Promise.resolve()
+    return await Promise.resolve('promise resolved')
 }
 
-start()
+start().then(console.log)
