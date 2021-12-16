@@ -25,6 +25,7 @@
         "eslint-loader": "^4.0.2",
         "html-webpack-plugin": "^5.5.0",
         "mini-css-extract-plugin": "^2.4.5",
+        "normalize.css": "^8.0.1",
         "sass": "^1.44.0",
         "sass-loader": "^12.4.0",
         "webpack": "^5.65.0",
@@ -33,6 +34,5 @@
     },
     "dependencies": {
         "@babel/polyfill": "^7.12.1"
-
     }
 }
