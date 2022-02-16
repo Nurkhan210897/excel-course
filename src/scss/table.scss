@@ -38,6 +38,20 @@
         border: 1px solid $border-color;
         background: #f8f9fa;
         border-top: none;
+        position: relative;
+        .row-resize {
+            position: absolute;
+            bottom: 0px;
+            right: 0;
+            left: 0;
+            height: 4px;
+            background-color: #3c74ff;
+            opacity: 0;
+            &:hover {
+                opacity: 1;
+                cursor: row-resize;
+            }
+        }
     }
     .row-data {
         display: flex;
@@ -53,6 +67,20 @@
         border-top: 0;
         border-left: 0;
         height: 100%;
+        position: relative;
+        .col-resize {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            width: 4px;
+            background-color: #3c74ff;
+            opacity: 0;
+            &:hover {
+                opacity: 1;
+                cursor: col-resize;
+            }
+        }
     }
     .cell {
         min-width: 40px;
